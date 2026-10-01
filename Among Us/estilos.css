@@ -1,0 +1,152 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-size: 0px;
+}
+
+/*---------HEADER----------------*/
+
+#inicio{
+    background-color: #8b0000;
+    height: 25vh;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1{
+    font-family: Arial, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+/*-----------NAV----------------*/
+
+nav{
+    height: 6vh;
+    background-color: #000;
+    text-align: center;
+}
+
+a{
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+/*-----SECCION PERSONAJE---------*/
+
+.contenedor{
+    text-align: center;
+    padding: 40px;
+    background-color: #d8efff;
+    min-height: 700px;
+}
+
+.titulo{
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    color: #8b0000;
+    margin-bottom: 30px;
+}
+
+/*-------PERSONAJE---------------*/
+
+#among{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/*----------MOCHILA---------------*/
+
+#mochila{
+    width: 100px;
+    height: 220px;
+    background-color: #a80000;
+    border: 6px solid #000;
+    border-radius: 30px;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    z-index: 1;
+}
+
+/*------CUERPO----------------*/
+
+#cuerpo{
+    width: 210px;
+    height: 300px;
+    background-color: #e60000;
+    border: 6px solid #000;
+    border-radius: 100px 100px 40px 40px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    z-index: 2;
+}
+
+/*--------VISOR---------*/
+
+#visor{
+    width: 175px;
+    height: 110px;
+    background-color: #62d8f5;
+    border: 6px solid #000;
+    border-radius: 50px;
+    position: absolute;
+    top: 60px;
+    left: 65px;
+    z-index: 3;
+}
+
+/* Brillo del visor */
+
+#brillo{
+    width: 90px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+/*-------PIERNAS----------*/
+
+.pierna{
+    width: 85px;
+    height: 120px;
+    background-color: #e60000;
+    border: 6px solid #000;
+    border-radius: 15px 15px 25px 25px;
+    position: absolute;
+    top: 360px;
+    z-index: 1;
+}
+
+#pierna1{
+    left: 80px;
+}
+
+#pierna2{
+    left: 185px;
+}
