@@ -1,0 +1,351 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* CONFIGURACION GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #20242b;
+    line-height: 1.6;
+}
+
+/* BARRA DE NAVEGACION */
+.navbar {
+    background-color: #101c35 !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    color: #ffffff !important;
+}
+
+.navbar-brand span {
+    color: #e63946;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff4d5a !important;
+}
+
+/* SECCIONES GENERALES */
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    color: #101c35;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section h2 span {
+    color: #e63946;
+}
+
+.texto-destacado {
+    color: #e63946;
+    font-weight: bold;
+}
+
+/* PORTADA PRINCIPAL */
+#inicio {
+    background: linear-gradient(135deg, #101c35, #243b64);
+    color: #ffffff;
+    padding: 140px 0 80px;
+}
+
+#inicio h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#inicio h1 span {
+    color: #ff4d5a;
+}
+
+#inicio p {
+    font-size: 18px;
+    color: #e3e8f0;
+}
+
+#inicio img {
+    width: 100%;
+    max-width: 350px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border: 4px solid #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* BOTONES */
+.btn-principal {
+    display: inline-block;
+    background-color: #e63946;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #e63946;
+    transition: 0.3s;
+}
+
+.btn-principal:hover {
+    background-color: #ffffff;
+    color: #e63946;
+}
+
+/* SOBRE MI */
+#sobre-mi {
+    background-color: #ffffff;
+}
+
+#sobre-mi p {
+    font-size: 17px;
+}
+
+/* HABILIDADES */
+#habilidades {
+    background-color: #e9edf4;
+}
+
+.tarjeta-habilidad {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(16, 28, 53, 0.1);
+    transition: 0.3s;
+}
+
+.tarjeta-habilidad:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(16, 28, 53, 0.2);
+}
+
+.tarjeta-habilidad h3 {
+    color: #101c35;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.tarjeta-habilidad p {
+    color: #555555;
+    margin-bottom: 0;
+}
+
+/* PROYECTOS */
+#proyectos {
+    background-color: #ffffff;
+}
+
+#proyectos .card {
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(16, 28, 53, 0.12);
+    transition: 0.3s;
+}
+
+#proyectos .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(16, 28, 53, 0.2);
+}
+
+#proyectos .card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+#proyectos .card-title {
+    color: #101c35;
+    font-weight: bold;
+}
+
+#proyectos .card-text {
+    color: #555555;
+}
+
+#proyectos .btn {
+    background-color: #101c35;
+    color: #ffffff;
+    border: 1px solid #101c35;
+}
+
+#proyectos .btn:hover {
+    background-color: #e63946;
+    border-color: #e63946;
+}
+
+/* GALERIA Y CARRUSEL */
+#galeria {
+    background-color: #e9edf4;
+}
+
+#carrusel img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(16, 28, 53, 0.3);
+}
+
+/* MULTIMEDIA */
+#multimedia {
+    background-color: #ffffff;
+}
+
+#multimedia video {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+#multimedia audio {
+    width: 100%;
+}
+
+/* CONTACTO */
+#contacto {
+    background-color: #101c35;
+    color: #ffffff;
+    text-align: center;
+}
+
+#contacto h2 {
+    color: #ffffff;
+}
+
+#contacto p {
+    color: #e3e8f0;
+}
+
+/* PIE DE PAGINA */
+footer {
+    background-color: #080e1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer span {
+    color: #ff4d5a;
+}
+
+/* VENTANAS MODALES */
+.modal-header {
+    background-color: #101c35;
+    color: #ffffff;
+}
+
+.modal-header .btn-close {
+    filter: invert(1);
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+/* PAGINA DE CONTACTO */
+#pagina-contacto {
+    min-height: 80vh;
+    padding-top: 120px;
+    background-color: #f4f6f9;
+}
+
+#pagina-contacto form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(16, 28, 53, 0.12);
+}
+
+#pagina-contacto label {
+    font-weight: bold;
+    color: #101c35;
+}
+
+#pagina-contacto input,
+#pagina-contacto textarea {
+    border: 1px solid #cbd2df;
+    border-radius: 6px;
+}
+
+#pagina-contacto input:focus,
+#pagina-contacto textarea:focus {
+    border-color: #e63946;
+    box-shadow: 0 0 5px rgba(230, 57, 70, 0.3);
+    outline: none;
+}
+
+/* SECCION DE CONTACTO PROFESIONAL */
+#contacto-profesional {
+    background-color: #101c35;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+#contacto-profesional h2 {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#contacto-profesional h2 span {
+    color: #e63946;
+}
+
+#contacto-profesional p {
+    color: #e3e8f0;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#contacto-profesional .btn-contacto {
+    display: inline-block;
+    background-color: #e63946;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: 2px solid #e63946;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#contacto-profesional .btn-contacto:hover {
+    background-color: #ffffff;
+    color: #e63946;
+}
