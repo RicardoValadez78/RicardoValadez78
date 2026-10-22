@@ -1,0 +1,529 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Ricardo">
+    <meta name="description" content="Portafolio personal de Ricardo, estudiante de Desarrollo de Software.">
+    <meta name="keywords" content="Ricardo, portafolio, desarrollo web, HTML, CSS, Bootstrap">
+
+    <link rel="icon" type="image/png" href="imagenes/logo.png">
+
+    <title>Portafolio | Ricardo</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- BARRA DE NAVEGACION -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+
+                <a class="navbar-brand" href="#inicio">
+                    RICARDO<span>.</span>
+                </a>
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal" aria-expanded="false"
+                    aria-label="Mostrar navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PORTADA -->
+        <section id="inicio">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-7 col-md-10">
+                        <p class="texto-destacado">
+                            ESTUDIANTE DE DESARROLLO DE SOFTWARE
+                        </p>
+
+                        <h1>Hola, soy <span>Ricardo</span></h1>
+
+                        <p>
+                            Me interesa el desarrollo web y la creación de
+                            soluciones digitales. Estoy aprendiendo nuevas
+                            tecnologías y desarrollando proyectos para fortalecer
+                            mis habilidades profesionales.
+                        </p>
+
+                        <a href="#proyectos" class="btn-principal">
+                            Conoce mis proyectos
+                        </a>
+                    </div>
+
+                    <div class="col-lg-5 text-center mt-4">
+                        <img src="imagenes/ricardo.jpg"
+                            alt="Fotografía personal de Ricardo">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE MI -->
+        <section id="sobre-mi">
+            <div class="container">
+
+                <h2>Sobre <span>mí</span></h2>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+
+                        <p>
+                            Soy estudiante de Desarrollo de Software en la
+                            Universidad Tecnológica de León. Me gusta aprender,
+                            resolver problemas y poner en práctica mis
+                            conocimientos mediante proyectos.
+                        </p>
+
+                        <p>
+                            Actualmente estoy fortaleciendo mis conocimientos
+                            de HTML, CSS, Bootstrap, Java y Kotlin. Mi objetivo
+                            es seguir creciendo profesionalmente y prepararme
+                            para realizar mis estadías.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section id="habilidades">
+            <div class="container">
+
+                <h2>Mis <span>habilidades</span></h2>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6">
+                        <article class="tarjeta-habilidad">
+                            <h3>HTML5</h3>
+                            <p>Creación de páginas con estructura semántica.</p>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <article class="tarjeta-habilidad">
+                            <h3>CSS3</h3>
+                            <p>Diseño de páginas, colores, distribución y estilos.</p>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <article class="tarjeta-habilidad">
+                            <h3>Bootstrap</h3>
+                            <p>Diseño de interfaces mediante componentes y columnas.</p>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <article class="tarjeta-habilidad">
+                            <h3>Java</h3>
+                            <p>Prácticas de programación y estructuras de datos.</p>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <article class="tarjeta-habilidad">
+                            <h3>Kotlin</h3>
+                            <p>Prácticas de desarrollo de aplicaciones Android.</p>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <article class="tarjeta-habilidad">
+                            <h3>Resolución de problemas</h3>
+                            <p>Análisis de problemas y búsqueda de soluciones.</p>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section id="proyectos">
+            <div class="container">
+
+                <h2>Mis <span>proyectos</span></h2>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <article class="card">
+                            <img src="imagenes/web.jpg"
+                                class="card-img-top"
+                                alt="Práctica de HTML y CSS">
+
+                            <div class="card-body">
+                                <h3 class="card-title">Prácticas de HTML y CSS</h3>
+
+                                <p class="card-text">
+                                    Ejercicios de estructura, estilos y distribución
+                                    de elementos en páginas web.
+                                </p>
+
+                                <button class="btn" data-bs-toggle="modal"
+                                    data-bs-target="#proyectoWeb">
+                                    Ver descripción
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <article class="card">
+                            <img src="imagenes/bootstrap.jpg"
+                                class="card-img-top"
+                                alt="Práctica realizada con Bootstrap">
+
+                            <div class="card-body">
+                                <h3 class="card-title">Diseño con Bootstrap</h3>
+
+                                <p class="card-text">
+                                    Prácticas de navegación, columnas, tarjetas
+                                    y componentes de Bootstrap.
+                                </p>
+
+                                <button class="btn" data-bs-toggle="modal"
+                                    data-bs-target="#proyectoBootstrap">
+                                    Ver descripción
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <article class="card">
+                            <img src="imagenes/contenidos.jpg"
+                                class="card-img-top"
+                                alt="Práctica de tendencias de diseño web">
+
+                            <div class="card-body">
+                                <h3 class="card-title">Tendencias de diseño web</h3>
+
+                                <p class="card-text">
+                                    Práctica con degradados, tipografías, formularios,
+                                    tablas y elementos multimedia.
+                                </p>
+
+                                <button class="btn" data-bs-toggle="modal"
+                                    data-bs-target="#proyectoContenidos">
+                                    Ver descripción
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <article class="card">
+                            <img src="imagenes/among_us.jpg"
+                                class="card-img-top"
+                                alt="Personaje rojo de la práctica Among Us">
+
+                            <div class="card-body">
+                                <h3 class="card-title">Diseño de Among Us</h3>
+
+                                <p class="card-text">
+                                    Práctica de CSS utilizando formas, posicionamiento,
+                                    bordes redondeados y capas.
+                                </p>
+
+                                <button class="btn" data-bs-toggle="modal"
+                                    data-bs-target="#proyectoAmongUs">
+                                    Ver descripción
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- GALERIA -->
+        <section id="galeria">
+            <div class="container">
+
+                <h2>Galería de <span>prácticas</span></h2>
+
+                <div id="carrusel" class="carousel slide"
+                    data-bs-ride="carousel">
+
+                    <div class="carousel-indicators">
+
+                        <button type="button" data-bs-target="#carrusel"
+                            data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Imagen 1"></button>
+
+                        <button type="button" data-bs-target="#carrusel"
+                            data-bs-slide-to="1" aria-label="Imagen 2"></button>
+
+                        <button type="button" data-bs-target="#carrusel"
+                            data-bs-slide-to="2" aria-label="Imagen 3"></button>
+
+                    </div>
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="imagenes/web.jpg"
+                                class="d-block"
+                                alt="Práctica de HTML y CSS">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="imagenes/bootstrap.jpg"
+                                class="d-block"
+                                alt="Práctica de Bootstrap">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="imagenes/contenidos.jpg"
+                                class="d-block"
+                                alt="Práctica de contenidos web">
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carrusel" data-bs-slide="prev">
+
+                        <span class="carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carrusel" data-bs-slide="next">
+
+                        <span class="carousel-control-next-icon"
+                            aria-hidden="true"></span>
+
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+  
+        
+        <!-- MULTIMEDIA -->
+        <section id="multimedia">
+            <div class="container">
+
+                <h2>Contenido <span>multimedia</span></h2>
+
+                <div class="row align-items-center">
+
+                    <div class="col-lg-7 mb-4">
+                        <h3>Video</h3>
+
+                        <p>
+                            Este espacio muestra un video relacionado con
+                            mis prácticas y mi aprendizaje.
+                        </p>
+
+                        <video controls>
+                            <source src="medios/video.mp4" type="video/mp4">
+                            
+                        </video>
+                    </div>
+
+                    <div class="col-lg-5 mb-4">
+                        <h3>Audio</h3>
+
+                        <p>
+                            Presentación personal sobre mi formación
+                            en Desarrollo de Software.
+                        </p>
+
+                        <audio controls>
+                            <source src="medios/audio.mp3" type="audio/mpeg">
+                           
+                        </audio>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- CONTACTO PROFESIONAL -->
+        <section id="contacto-profesional" class="text-center py-5">
+            <div class="container">
+
+                <h2 class="titulo-contacto">
+                    ¿Conoces mi <span>trabajo?</span>
+                </h2>
+
+                <p class="texto-contacto">
+                    Soy estudiante de Desarrollo de Software y busco
+                    seguir aprendiendo, desarrollar mis habilidades
+                    y adquirir experiencia profesional.
+                </p>
+
+                <a href="contacto.html" class="btn-contacto">
+                    Contactarme
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PAGINA -->
+    <footer>
+        <p>© 2026 <span>Ricardo</span> | Portafolio personal</p>
+    </footer>
+
+    <!-- VENTANAS MODALES -->
+    <div class="modal fade" id="proyectoWeb" tabindex="-1"
+        aria-labelledby="tituloWeb" aria-hidden="true">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h2 class="modal-title" id="tituloWeb">
+                        Prácticas de HTML y CSS
+                    </h2>
+
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+
+                <div class="modal-body">
+                    Proyecto de aprendizaje enfocado en la estructura HTML
+                    y la aplicación de estilos CSS.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="proyectoBootstrap" tabindex="-1"
+        aria-labelledby="tituloBootstrap" aria-hidden="true">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h2 class="modal-title" id="tituloBootstrap">
+                        Diseño con Bootstrap
+                    </h2>
+
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+
+                <div class="modal-body">
+                    Práctica de diseño adaptable utilizando la cuadrícula,
+                    la navegación y las tarjetas de Bootstrap.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="proyectoContenidos" tabindex="-1"
+        aria-labelledby="tituloContenidos" aria-hidden="true">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h2 class="modal-title" id="tituloContenidos">
+                        Página con contenidos
+                    </h2>
+
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+
+                <div class="modal-body">
+                    Ejercicio de integración de imágenes, formularios,
+                    tablas y contenido multimedia.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- VENTANA MODAL DE AMONG US -->
+    <div class="modal fade" id="proyectoAmongUs" tabindex="-1"
+        aria-labelledby="tituloAmongUs" aria-hidden="true">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h2 class="modal-title" id="tituloAmongUs">
+                        Diseño de Among Us
+                    </h2>
+
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+
+                <div class="modal-body">
+                    Esta práctica consiste en crear un personaje de Among Us
+                    utilizando CSS. Se trabajan figuras, posicionamiento,
+                    bordes redondeados y el uso de z-index para organizar
+                    las capas del diseño.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
